@@ -32,7 +32,7 @@ def write_message(user_id, s):
 
 def main():
     while True:
-        vk = vk_api.VkApi(token='779452e3cff26a88f0f7c693a31b22f91969e9d0578274af5476c1f64fc21636d23f70db3a9e1776a53a5', )
+        vk = vk_api.VkApi(token='', )
         response = vk.method('messages.get', values)
         if response['items']:
             values['last_message_id'] = response['items'][0]['id']
