@@ -3,7 +3,7 @@ import json
 import vk_api
 import pymorphy2
 morph = pymorphy2.MorphAnalyzer()
-vk = vk_api.VkApi(token='779452e3cff26a88f0f7c693a31b22f91969e9d0578274af5476c1f64fc21636d23f70db3a9e1776a53a5', )
+vk = vk_api.VkApi(token='', )
 
 values = {'out': 0, 'count': 100, 'time_offset': 60}
 
